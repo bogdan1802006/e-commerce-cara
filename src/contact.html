@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Server Test</title>
+    <link href="../src/output.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="bg-customColor header h-[80px] sm:h-[100px] flex justify-between items-center sticky top-0 z-50">
+        
+            
+            <img src="../images/logo.png" class=" ml-5 sm:mx-32 cursor-pointer opacity-70 w-[115px] sm:w-[140px]">
+            
+            <div class=" sm:mr-32 ml-10 flex gap-5 mr-4">
+                <a href="index.html">
+                    <button class="bg-gray-400 bg-opacity-30 rounded-md px-8 py-1 text-gray-700 hover:bg-gray-400 hover:bg-opacity-60 focus:outline-none font-medium tracking-[1px] transition2s">
+                        Shop
+                    </button>
+                </a>
+                <a href="#">
+                    <button class="bg-gray-400 bg-opacity-30 rounded-md px-8 py-1 text-gray-700 hover:bg-gray-400 hover:bg-opacity-60 focus:outline-none font-medium tracking-[1px] transition2s">
+                        Contact
+                    </button>
+                </a>
+            </div>
+      
+        
+    </header>
+    <section class="main h-fit bg-customColor">
+        <div class="main-div flex-col  sm:flex sm:flex-row justify-center items-center p-10 sm:gap-5">
+            <div class="left-card-info flex-col bg-white w-[400px] h-[500px] sm:w-[600px] sm:h-[507px] p-5 rounded-md drop-shadow-md mb-5">
+                <h1 class="text-black text-opacity-85 text-xl sm:text-2xl">Send a message</h1>
+                
+                    <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="a6533160-13d1-4629-b3a9-61deda1548b2 ">
+                        <div class="grid  grid-cols-2 py-3 gap-3 mt-7 ">
+                    <div class="border w-[165px] sm:w-[245px] h-[35px] rounded-md flex items-center relative">
+                        <span class=" span-text mb-16 absolute ">First Name</span>
+                        <input type="text" id="name" name="name" placeholder="Greench" required class="outline-none  w-full ml-2">
+                    </div>
+                    <div class="border w-[165px] sm:w-[245px] h-[35px] rounded-md flex items-center relative">
+                        <span class=" span-text mb-16  absolute ">Last Name</span>
+                        <input type="text" id="lastname" name="lastname" placeholder="Mister" class="outline-none  w-full ml-2">
+                    </div>
+                    <div class="border w-[165px] sm:w-[245px] h-[35px] rounded-md flex items-center relative mt-7">
+                        <span class=" span-text mb-16 absolute ">Email</span>
+                        <input type="text" id="email" name="email" placeholder="hello@gmail.com" class="outline-none  w-full ml-2">
+                    </div>
+                    <div class="border w-[165px] sm:w-[245px] h-[35px] rounded-md flex items-center relative mt-7">
+                        <span class=" span-text mb-16 absolute ">Phone</span>
+                        <input type="text" id="phone" name="phone" placeholder="+998901234567" class="outline-none  w-full ml-2">
+                    </div>
+                    
+               
+                
+                <div class="text-area border h-[180px] w-[350px] sm:h-[180px] sm:w-[535px] relative mt-9 rounded-md">
+                    <span class="span-text absolute top-[-30px]">Message</span>
+                    <textarea id="text-area" id="message" name="message" placeholder="Write your message here..." class="w-full h-full outline-none p-3"></textarea>
+                </div>
+               
+            </div>
+            <div class="mt-3 w-[120px] h-[40px] flex items-center">
+                <button type="submit" class="send-btn border p-2 text-white w-full h-full rounded-md">Send</button>
+            </div>
+                </div>
+        </form>
+            <div class="flex-col items-center">
+                <div class="flex-col items-center w-[400px] h-[253px] bg-color p-8 rounded-md drop-shadow-md mb-3 sm:mb-0">
+                    <h1 class="text-lg text-white">Contact Info</h1>
+                        <div class="flex-col mt-3">
+                        <div class="flex items-center gap-3 mt-5">
+                            <i class='bx bxs-map icon'></i>
+                            <span class="text-icon">Yangiyol, Tashkent Uzbekistan</span>
+                        </div>
+                        <div class="flex items-center gap-3 mt-5 ">
+                            <i class='bx bxs-envelope icon' style='color:#ffffff' ></i>
+                            <span class="text-icon">bogdansaipov@gmail.com</span>
+                        </div>
+                        <div class="flex items-center gap-3 mt-5">
+                            <i class='bx bxs-phone icon'></i>
+                            <span class="text-icon">+90 123 45 67</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-end gap-3">
+                        <div>
+                            <a href="#">
+                            <i class='bx bxl-instagram-alt socials' style='color:#ffffff' ></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                            <i class='bx bxl-facebook-square socials'></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                            <i class='bx bxl-twitter socials'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-yellow-400w-[400px] h-[253px]">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191884.839870258!2d69.11455388143591!3d41.2827379466668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa5a9323b4aa5cb98!2z0KLQsNGI0LrQtdC90YIsINCj0LfQsdC10LrQuNGB0YLQsNC9!5e0!3m2!1sru!2s!4v1719574521807!5m2!1sru!2s" width="400" height="253" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
