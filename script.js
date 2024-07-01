@@ -1,56 +1,56 @@
 let shopItems = [
     {
         id: 1,
-        img: "/Products/b2 (0-00-42-24).png",
+        img: "./Products/b2 (0-00-42-24).png",
         title: "Cool Summer Tee",
         desc: "Comfortable essentials for a relaxed summer vibe.",
         price: 125
     },
     {
         id: 2,
-        img: "/Products/f2new.png",
+        img: "./Products/f2new.png",
         title: "Sunny Day Tee",
         desc: "Lightweight tees for effortless summer coolness.",
         price: 75
     },
     {
         id: 3,
-        img: "/Products/f3new.png",
+        img: "./Products/f3new.png",
         title: "Breezy Beach Tee",
         desc: "Breathable fabrics perfect for sunny days.",
         price: 85
     },
     {
         id: 4,
-        img: "/Products/4new.png",
+        img: "./Products/4new.png",
         title: "Bright Sun Tee",
         desc: "Vibrant designs to brighten up your summer wardrobe.",
         price: 95
     },
     {
         id: 5,
-        img: "/Products/5NEw.png",
+        img: "./Products/5NEw.png",
         title: "Chill Vibes Tee",
         desc: "Vibrant designs to brighten up your summer wardrobe.",
         price: 125
     },
     {
         id: 6,
-        img: "/Products/6New.png",
+        img: "./Products/6New.png",
         title: "Hot Days Tee",
         desc: "Vibrant designs to brighten up your summer wardrobe.",
         price: 105
     },
     {
         id: 7,
-        img: "/Products/7New.png",
+        img: "./Products/7New.png",
         title: "Breezy Linen Pants",
         desc: "Vibrant designs to brighten up your summer wardrobe.",
         price: 115
     },
     {
         id: 8,
-        img: "/Products/8new.png",
+        img: "./Products/8new.png",
         title: "Cool Comfort Skirt",
         desc: "Vibrant designs to brighten up your summer wardrobe.",
         price: 125
@@ -185,56 +185,56 @@ generatePaginationControls();
 let newItems = [
     {
         id: 9,
-        img: "/Arrivals/b2 (0-00-47-00).png",
+        img: "./Arrivals/b2 (0-00-47-00).png",
         title: "Executive Elegance Tee",
         desc: "Comfortable essentials for a relaxed summer vibe.",
         price: 65
     },
     {
         id: 10,
-        img: "/Arrivals/b2 (0-00-47-00)n2.png",
+        img: "./Arrivals/b2 (0-00-47-00)n2.png",
         title: "Professional Polished Tee",
         desc: "Lightweight tees for effortless summer coolness.",
         price: 70
     },
     {
         id: 11,
-        img: "/Arrivals/b2 (0-00-55-00).png",
+        img: "./Arrivals/b2 (0-00-55-00).png",
         title: "Office Essential Tee",
         desc: "Breathable fabrics perfect for sunny days.",
         price: 55
     },
     {
         id: 12,
-        img: "/Arrivals/b2 (0-00-47-36)n4.png",
+        img: "./Arrivals/b2 (0-00-47-36)n4.png",
         title: "Corporate Comfort Tee",
         desc: "Vibrant designs to brighten up your summer wardrobe.",
         price: 60
     },
     {
         id: 13,
-        img: "/Arrivals/b2 (0-00-47-36)n5.png",
+        img: "./Arrivals/b2 (0-00-47-36)n5.png",
         title: "Business Casual Tee",
         desc: "Vibrant designs to brighten up your summer wardrobe.",
         price: 75
     },
     {
         id: 14,
-        img: "/Arrivals/b2 (0-00-47-36)n6.png",
+        img: "./Arrivals/b2 (0-00-47-36)n6.png",
         title: "Relaxed Weekend Shorts",
         desc: "Vibrant designs to brighten up your summer wardrobe.",
         price: 85
     },
     {
         id: 15,
-        img: "/Arrivals/b2 (0-00-47-36)7n.png",
+        img: "./Arrivals/b2 (0-00-47-36)7n.png",
         title: "Boardroom Basic Tee",
         desc: "Vibrant designs to brighten up your summer wardrobe.",
         price: 95
     },
     {
         id: 16,
-        img: "/Arrivals/b2 (0-00-47-36)n8.png",
+        img: "./Arrivals/b2 (0-00-47-36)n8.png",
         title: "Workplace Chic Tee",
         desc: "Vibrant designs to brighten up your summer wardrobe.",
         price: 85
